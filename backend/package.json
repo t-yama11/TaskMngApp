@@ -1,15 +1,13 @@
 {
-  "name": "taskmngapp",
+  "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "dev": "vite",
-    "start": "node index.js",
-    "build": "vite build",
-    "lint": "eslint ."
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
