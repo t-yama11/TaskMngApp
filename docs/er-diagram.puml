@@ -1,0 +1,8 @@
+@startuml ER
+entity "Task" as task {
+  * id : string
+  * title : string
+  * priority : string <<enum: high/medium/low>>
+}
+
+@enduml

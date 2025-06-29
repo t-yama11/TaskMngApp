@@ -1,0 +1,7 @@
+@startuml 画面遷移図
+[*] --> TaskList
+
+TaskList --> AddTask : タスク追加ボタン押下
+AddTask --> TaskList : 保存後 or キャンセル
+
+@enduml
